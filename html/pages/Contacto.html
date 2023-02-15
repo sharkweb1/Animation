@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/contacto.css">
+        
+    </head>
+    <body>
+      <div class="side-bar">
+        <img src="../assets/img/profile.jpeg" alt="profile">
+        <div class="Menu">
+          <button type="button" onclick="window.location.href='index.html';" class="Inicio">Inicio</button>
+          <button type="button" onclick="window.location.href='Informacion.html';" class="Informacion">Informacion</button>
+            <button type="button" onclick="window.location.href='Habilidades.html';"class="Habilidades">Habilidades</button>
+            <button type="button" class="Contacto">Contacto</button>
+        </div>
+      </div>
+      <div class="cuerpo">
+        <div class="cuerpo-child">
+
+<!-- inicio -->
+<div class="form">
+          <form>
+            <label>Nombre Completo:</label>
+            <input type="text" name="fullName" required>
+          
+            <label>Fecha de Nacimiento:</label>
+            <input type="date" name="birthDate" required>
+          
+            <label>Correo Electrónico:</label>
+            <input type="email" name="email" required>
+          
+            <label>Número de Teléfono:</label>
+            <input type="tel" name="phoneNumber" required>
+          
+            <label>País:</label>
+            <select name="country" required>
+              <option value="">Seleccione un País</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Chile">Chile</option>
+            </select>
+          
+            <label>Género:</label>
+            <select name="gender" required>
+              <option value="">Seleccione un Género</option>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Otro">Otro</option>
+            </select>
+          
+            <label>Color Favorito:</label>
+            <input type="color" name="favoriteColor" required>
+          
+            <label>Mensaje:</label>
+            <textarea name="message" required></textarea>
+          
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+
+<!-- final  -->
+
+<!-- Inicio de tabla -->
+<div class="tabla">
+          <table>
+            <tr>
+              <th>Nombre Completo</th>
+              <td>Emmanuel Sánchez Lora</td>
+            </tr>
+            <tr>
+              <th>Fecha de Nacimiento</th>
+              <td>31/10/2000</td>
+            </tr>
+            <tr>
+              <th>Correo Electrónico</th>
+              <td>emmanuel.sanchez.lora@gmail.com</td>
+            </tr>
+            <tr>
+              <th>Número de Teléfono</th>
+              <td>829 448 8864</td>
+            </tr>
+            <tr>
+              <th>País</th>
+              <td>República Dominicana</td>
+            </tr>
+            <tr>
+              <th>Género</th>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <th>Color Favorito</th>
+              <td>Azul</td>
+            </tr>
+            <tr>
+              <th>Mensaje</th>
+              <td>Esto es un mensaje</td>
+            </tr>
+          </table>
+        </div>
+
+<!-- Final de table -->
+        </div>
+      </div>
+
+
+      
+    </body>
+</html>

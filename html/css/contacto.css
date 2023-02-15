@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    height: 100%;
+}
+
+
+
+
+body{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+
+}
+
+.cuerpo{
+    width: 90%;
+    height: auto;
+    margin: 15px;
+    background-color: rgb(98, 255, 221);
+    border-radius: 10px;
+    
+    
+    
+    
+    -webkit-box-shadow: 13px -8px 52px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px -8px 52px -15px rgba(0,0,0,0.75);
+    box-shadow: 13px -8px 52px -15px rgba(0,0,0,0.75);
+}
+
+.cuerpo-child{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    background-color: #1CB5E0;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+
+.side-bar {
+    width: 50vh;
+    height: auto;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgb(102, 177, 243);
+    -webkit-box-shadow: 1px -1px 52px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 52px -15px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 52px -15px rgba(0,0,0,0.75);
+}
+
+.side-bar img {
+    width: 50%;
+    position: relative;
+    left:25%;
+    top:20px;
+    border-radius: 50%;
+    border: 10px solid rgba(203, 203,203, 0.5);
+}
+
+.side-bar .Menu{
+    width: 80%;
+    height: 45%;
+    background-color: rgb(149, 189, 224);
+    position: relative;
+    top: 50px;
+    left: 10%;
+    border-radius: 30px;
+}
+
+
+
+.Menu button{
+    display: block;
+    text-decoration: none;
+    border: 1px solid white;
+    margin: 5px 0px 10px 0px;
+    width: 90%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    height: 20%;
+    border-radius: 40px;
+    font-family: 'Pacifico', serif;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+button:not(.Contacto){
+    color: azure;
+    background-color: #5dd6f8;
+    
+}
+
+.Contacto{
+    background-color: rgb(155, 231, 206);
+    color: rgb(99, 92, 92);
+    
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: rgb(192, 255, 234);
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-box-shadow: -2px 31px 61px -37px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 31px 61px -37px rgba(0,0,0,0.75);
+    box-shadow: -2px 31px 61px -37px rgba(0,0,0,0.75);
+}
+
+form {
+    padding: 20px;
+    background-color: #f2f2f2;
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.tabla{
+    width: 50%;
+    display: flex;
+    float: right;
+
+}
+
+.form{
+    display: flex;
+    float: left;
+}
