@@ -1,0 +1,218 @@
+html, body{
+    max-width: 100%;
+    /* height: 100vh; */
+}
+.containerss{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+ 
+ }
+
+.movie1{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/cars.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.movie1 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie1 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: -10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.movie2{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/avengers.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.movie2 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie2 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: -10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.movie3{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/rapidoyfuriosos.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.movie3 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie3 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.movie4{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/john_wick.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.movie4 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie4 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.movie5{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/jumanji.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+
+.movie5 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie5 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.movie6{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/ted.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+
+
+.movie6 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie6 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.movie7{
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/the_exorcist.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.movie7 iframe{
+    position: relative;
+    left: 60%;
+    top: 25%;
+}
+
+.movie7 p{
+    width: 650px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
